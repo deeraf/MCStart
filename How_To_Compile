@@ -1,0 +1,4 @@
+First do 'g++ -c filename.cpp' for all the cpp files.
+This creates objects (filename.o) for each corresponding cpp file.
+Now, do 'g++ filename1.o filename2.o ... filenameN.o -o MCSimulation'. (write all the constituent filename.o)
+This generates an executable of the name MCSimulation.
